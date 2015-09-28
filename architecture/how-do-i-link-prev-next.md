@@ -9,7 +9,7 @@ Tags: multiple item region, perch_content_custom
 
 ## When using a multiple item region, particularly with a list/detail display, it is sometimes useful to be able to link to the next or previous item in that region. This can be done with some simple filtering and ordering using `perch_content_custom()`
 
-Here's the scenario; we have a multiple item region set up using the [list and detail](/architecture/how-do-i-create-list-detail-pages) approach. On the detail page, it would be great to be able to show links to the previous and next items in the list, with the user needing to navigate back to the list to find them.
+Here's the scenario; we have a multiple item region set up using the [list and detail](/architecture/how-do-i-create-list-detail-pages) approach. On the detail page, it would be great to be able to show links to the previous and next items in the list, without the user needing to navigate back to the list to find them.
 
 To do this we need three `perch_content_custom()` calls:
 
